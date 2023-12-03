@@ -1,30 +1,199 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>My Portofolio</title>
-  <style type="text/css">
-    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-      * {
-        font-family: "Poppins", sans-serif;
-      }
-      div {
-        margin-top: 15%;
-      }
-      img {
-        width: 20%;
-        display: block;
-        margin: auto;
-      }
-      p {
-        text-align: center;
-        color: #6E6C9A;
-      }
-  </style>
-</head>
-<body>
-  <div>
-    <img src="sorry.png">
-    <p>Sorry currently there improvements to our website.</p>
-  </div>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jarallax.css">
+
+    <title>Website | Zidna Fatha Nazhifa</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/favicon/logozidna.png"/>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand" href=""><img class="logopad" src="assets/favicon/logozidna.png" alt="logo"></a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <div class="navbar-toggler collapsed" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Introduce</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Welcoming Page Section -->
+    <section class="welcam" id="welcam">
+    <img src="assets/aksen.png" class="aksen">
+      <div class="container">
+        <div class="welcoming">
+          <h1><b>Welcome to My Blog</b></h1>
+          <p>I'm from Solo and I have passionate individual with a strong interest in the digital realm, encompassing design, digital media, and various other digital disciplines.</p>
+
+        </div>
+      </div>
+    </section>
+    <!-- Home Page Section -->
+    <section class="home" id="home">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-5">
+            <div class="home_photo text-center">
+              <img src="assets/images/photo.png" alt="photo">
+              <div class="circle"></div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="home_intro">
+              <h2>Hi, i'm Zidna Fatha Nazhifa</h2>
+              <h1>UI Designer & Digital Entusiast</h1>
+              <p>I'm from Solo and I have passionate individual with a strong interest in the digital realm, encompassing design, digital media, and various other digital disciplines.</p>
+              <div class="home_social">
+                <a href="https://www.instagram.com/zifanazhifa/?hl=id"><img src="assets/icon/instagram.png" alt="instagram"></a>
+                <a href="https://www.linkedin.com/in/zidnafathanazhifa"><img src="assets/icon/linkedin.png" alt="linkedin"></a>
+                <a href="https://medium.com/@zidnafathanazhifa"><img src="assets/icon/medium.png" alt="medium"></a>
+                <a href="https://www.youtube.com/channel/UCSpB4cNm8nzCOdDBrhUhSjQ"><img src="assets/icon/youtube.png" alt="youtube"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Project -->
+    <section class="project" id="project">
+      <div class="container">
+        <div class="row">
+          <h1>My Project</h1>
+          <div class="line"></div>
+          <div class="services-content">
+            <!-- Box 1 -->
+            <div class="services-box">
+                <img src="assets/icon/siakad.png"></a>
+                <i class='bx bx-code-alt' ></i>
+                <h5>UI Siakad UNS</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel urna rutrum, sollicitudin nisl ac, ultricies nibh. Duis facilisis dictum nisi vel molestie.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <!-- Box 2 -->
+            <div class="services-box">
+                <img src="assets/icon/gamemath.png"></a>
+                <i class='bx bx-server' ></i>
+                <h5>Game Edukasi</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel urna rutrum, sollicitudin nisl ac, ultricies nibh. Duis facilisis dictum nisi vel molestie.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <!-- Box 2 -->
+            <div class="services-box">
+                <img src="assets/icon/animasi3d.png"></a>
+                <i class='bx bx-server' ></i>
+                <h5>Animasi 3D</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel urna rutrum, sollicitudin nisl ac, ultricies nibh. Duis facilisis dictum nisi vel molestie.</p>
+                <a href="#">Learn More</a>
+            </div>
+            </div>
+            <div class="services-content">
+            <!-- Box 1 -->
+            <div class="services-box">
+                <img src="assets/icon/webkec.png"></a>
+                <i class='bx bx-code-alt' ></i>
+                <h5>UI Web Kecamatan</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel urna rutrum, sollicitudin nisl ac, ultricies nibh. Duis facilisis dictum nisi vel molestie.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <!-- Box 2 -->
+            <div class="services-box">
+                <img src="assets/icon/design.png"></a>
+                <i class='bx bx-server' ></i>
+                <h5>Design</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel urna rutrum, sollicitudin nisl ac, ultricies nibh. Duis facilisis dictum nisi vel molestie.</p>
+                <a href="#">Learn More</a>
+            </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- End T My Project -->
+
+
+    <!-- Tools and Skills section -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="row">
+          <h1>Tools & Skills</h1>
+          <div class="line"></div>
+          <div class="programming text-center">
+            <img src="assets/icon/animate.png">
+            <img src="assets/icon/ilustrator.png">
+            <img src="assets/icon/figma.png">
+            <img src="assets/icon/blender.png">
+            <img src="assets/icon/canva.png">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Tools and Skills section -->
+
+    <!-- Blog Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <h1>Blog</h1>
+          <div class="line"></div>
+          <div class="textblog">
+            <p class="desc"><span>Building Multiplatform Applications — Introducing</span><br>In an era where users rely on a diverse range of devices and operating systems, the ability to develop applications that seamlessly run across various platforms has become.....<a href="https://medium.com/@zidnafathanazhifa/building-multiplatform-applications-introducing-6a38b73a0fb7">Read More</a></p><br>
+            
+            <p class="desc"><span>Learning Python -Introduction</span><br>Python is an interpreter programming language which means it will be executed line by line. Python was created in the late 1980s by Guido van Rossum at the Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC language. Its implementation began in December 1989.....<a href="https://medium.com/@zidnafathanazhifa/learning-python-introduction-f922c221ebf8">Read More</a></p><br>
+
+            <p class="desc"><span>LEARNING PYTHON -Statement Control</span><br>Programming language logic has several types of instruction flows. The flow of the instruction process or the control statement is a mechanism to regulate the flow of the command process....<a href="https://medium.com/@zidnafathanazhifa/learning-python-statement-control-ce49c32659c1">Read More</a></p>
+          </div>
+          <div class="copyright">
+            <p>nana &#169; 2023</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Get In Touch Section -->
+
+    <!-- Scripts -->
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jarallax.js"></script>
+    <script src="js/jarallax-element.js"></script>
+    <!-- End Scripts -->
+
+  </body>
 </html>
